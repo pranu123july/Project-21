@@ -25,7 +25,7 @@ if (hasCollided(bullet,wall)){
     wall.shapeColor=color(255,0,0);
   }
   if(damage<10){
-    wall.shapeColor.color(0,255,0);
+    wall.shapeColor=color(0,255,0);
   }
 }
   drawSprites();
